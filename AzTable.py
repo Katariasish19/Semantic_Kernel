@@ -2,9 +2,9 @@ from azure.data.tables import TableServiceClient, TableClient
 from azure.core.credentials import AzureNamedKeyCredential
 import json
 
-account_name = "samplestoragepoc"
-account_key = "2qoUm9X91AY0F04TrbSxWY36OSfezUXzttrMLMPs/lMbZ/tQQOdmn3ve82wODaOX9C6M26tTnm8f+AStId11JQ=="
-table_name = "demotable"
+account_name = "your-account-name"
+account_key = "your-account-key"
+table_name = "your-table-name"
 
 credential = AzureNamedKeyCredential(account_name, account_key)
 
